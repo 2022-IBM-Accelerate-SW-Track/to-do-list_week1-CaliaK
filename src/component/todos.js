@@ -23,6 +23,7 @@ const Todos = ({ todos }) => {
             </Card>
           </Grid>
         );
+      })
     ) : (
       <p>{/*You have no todo's left.*/}</p>
     );
