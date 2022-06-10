@@ -34,6 +34,7 @@ class Home extends Component {
         <h1>Todo's </h1>
         <Todos todos = {this.state.todos} />
         <AddTodo addTodo={this.addTodo} />
+        
       </div>
     );
   }
